@@ -1,3 +1,7 @@
+build_client:
+	cd src/SwiftClient; dotnet build -c Release
+build_service:
+	cd src/SwiftClient.AspNetCore; dotnet build -c Release
 pack_client:
 	cd src/SwiftClient; dotnet pack -c Release
 pack_service:

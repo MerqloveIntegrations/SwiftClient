@@ -1,10 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Microsoft.Extensions.Options;
 using System.Net.Http;
-using System.Threading.Tasks;
 
 namespace SwiftClient.AspNetCore
 {
